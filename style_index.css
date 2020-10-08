@@ -1,0 +1,102 @@
+.titre{
+	font-size: 50px;
+	font-family: "Times New Roman";
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 40px;
+	width: 94%;
+}
+p{
+	font-family: "Times New Roman";
+	font-size: 14px;
+	text-indent: 1%;
+}
+.img{
+	float: left;
+	width: 190px;
+	height: 90px;
+
+}
+nav{
+	text-align: center;
+	padding: 10px;
+	background-color: gray;
+	margin:30px;
+}
+*{
+	color: black;
+	text-align: justify;
+	background-color: rgb(237, 237, 237);
+}
+.apres{
+	clear: both;
+}
+nav,article,footer{
+	border: 2px solid black;
+	margin: 10px;
+	border-radius: 5px
+}
+.txt{
+	margin: 10px;
+}
+
+table,caption{
+	border: 1px solid black;
+}
+th,td{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+table{
+	margin: 10px;
+}
+ul{
+	background-color: gray;
+}
+li{
+	list-style-type: square;
+	margin-right: 10px;
+	background-color: gray;
+}
+aside{
+	float: right;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 10px;
+	background-color: gray;
+}
+caption{
+	background: gray;
+}
+.foot{
+	text-align: center;
+}
+.map{
+	overflow:hidden;
+	padding-bottom:25%;
+	position:relative;>
+	height:0;
+}
+.map iframe {
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.particuliers:hover{
+	color: red;
+	transition-duration: 0.1s;
+
+}
+.contact:hover{
+	color: red;
+	transition-duration: 0.1s;
+
+}
+.particuliers{
+	background-color: gray;
+}
+.contact{
+	background-color: gray;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    position: relative;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+
+main{
+    margin-top: 40px;
+    
+}
+
+a{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+a:hover{
+    background-position: right center; /* change the direction of the change here */
+   color: hsl(0,0%,90%);
+   text-decoration: none;
+
+}
+
+.logo{
+    height: 70px;
+}
+
+.admin-co{
+    position: absolute;
+    top: 0;
+    right: 0; 
+    border: solid 1px transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0)), linear-gradient(101deg, #FF9A8B, #FF6A88);
+    padding: 8px 20px;
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    text-decoration: none;
+    color: hsl(0,0%,50%);
+    font-size: 10px;
+}
+
+.admin-co:hover{
+    background-position: right center; /* change the direction of the change here */
+   color: hsl(0,0%,90%);
+   text-decoration: none;
+}
+
+h1{
+    color: hsl(0,0%,70%);
+    font-weight: 300;
+    font-size: 30px;
+}
+
+h1 span{
+    color: hsl(209,33%,12%);
+    font-weight: 700;
+}
+
+p{
+    text-align: center;
+}
+
+.text{
+  margin-left: 20px; 
+  margin-right: 20px; 
+}
+
+.search{
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    width: 300px;
+    padding: 15px 40px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin: 10px;
+    background-image: linear-gradient(to right, #FF9A8B 0%, #FF6A88  31%, #FF99AC  100%);
+}
+
+.bactail{
+    height: 200px;
+    margin: auto;
+}
+
+
+
+.search:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: hsl(0,0%,90%);
+   text-decoration: none;
+ }
+
+
+ .footer{
+     padding-top: 30px;
+ }
+

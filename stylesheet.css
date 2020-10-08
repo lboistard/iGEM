@@ -1,0 +1,181 @@
+
+.titre{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 0em;
+}
+
+#titre_table{
+	text-align: center;
+	font-size: 30px;
+}
+input[type="range"] {
+	position: relative;
+	margin-left: 1em;
+}
+input[type="range"]:after,
+input[type="range"]:before {
+	position: absolute;
+	top: 1em;
+	color: #aaa;
+}
+input[type="range"]:before {
+	left:0em;
+	content: attr(min);
+}
+input[type="range"]:after {
+	right: 0em;
+	content: attr(max);
+}
+.larg{
+	padding: 0px;
+}
+
+#globale{
+	white-space: nowrap;
+}
+body{
+	margin-left: 0em;
+}
+iframe{ 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 442px;
+	height: 300px;
+}
+p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+} 
+.centrale_name {
+	font-weight: bold;
+}
+.centrale_country{
+	font-size: 75%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.tabulation {
+	text-indent: 20px;
+}
+.unknow_info{
+	margin-left: 20px;
+}
+#section{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+.tooltip {
+	position: relative;
+	display: inline;
+	border-bottom: 1px dotted black;
+	z-index: 10;
+}
+
+.tooltip .tooltiptext {
+	display: inline;
+	visibility: hidden;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px;
+	position: absolute;
+	z-index: 10;
+	top: 150%;
+	left: 50%;
+	margin-left: -120px;
+}
+
+.tooltip .tooltiptext::after {
+	display: inline;
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent black transparent;
+	z-index: 10;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	z-index: 10;
+}
+#ligne{
+	display: inline;
+}
+.space{
+	float: right;
+	color: white;
+}
+#col{
+	width: 500px;
+}
+.img{
+	float: left;
+	width: 190px;
+	height: 90px;
+
+}
+.logo{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.connexionAdmin{
+	float: right;
+}
+.button {
+  display: inline-block;
+  border-radius: 14px;
+  background-color: red;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.search:visited
+{
+ color:black;
+}
