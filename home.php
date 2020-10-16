@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <?php
-$connect=mysqli_connect("127.0.0.1","root","","testigem");
+
+	//~-------------------------------------------------------------
+	//~ Variables de connexion à la DB
+	//~-------------------------------------------------------------
+	$hostname = 'localhost';
+	$username = 'root';
+	$passwordDB = 'root';
+	$myDataBase = 'testigem';
+
+
+	$connect=mysqli_connect($hostname,$username,$passwordDB,$myDataBase);
 ?>
 
 <link rel="stylesheet" type="text/css" href="static/style.css">
 
 
 <head>
-	
-	
 	
 	
 	

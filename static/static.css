@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:200,300,600,700&display=swap');
+
+body{
+	margin: 0;
+	text-align: center;
+    position: relative;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.inner{
+	position: relative;
+	padding-left: 3%;
+	padding-right: 3%;
+	display: flex;
+	margin-top: 30px;
+}
+
+.container{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left{
+	float:left;
+	padding-right: 225px;
+}
+
+.right{
+	align-items: center;
+	display: flex;
+	padding-left: 225px;
+}
+
+img{
+	width: 150px;
+}
+
+
+.submissionbutton {
+    border: none;
+    color: #fff;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 120px;
+    padding: 10px 22px;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 15px;
+    margin: 10px;
+    background-image: linear-gradient(to right, #FF9A8B 0%, #FF6A88  31%, #FF99AC  100%);
+}
+
+.home {
+    border: solid 1px transparent;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 120px;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 15px;
+    margin: 10px;
+    background-origin: border-box;
+    color: hsl(0,0%,50%);
+    background-clip: content-box,border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0)), linear-gradient(101deg, #FF9A8B, #FF6A88);
+    
+}
+
+h1{
+    color: hsl(0,0%,60%);
+    font-weight: 300;
+    font-size: 35px;
+
+}
+
+h1 span{
+    color: hsl(209,33%,12%);
+    font-weight: 600;
+}
+
+
+
+.sendBacteriaName{
+	border: solid 1px transparent;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 120px;
+    padding: 10px 38px;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 15px;
+    margin: 10px;
+    background-origin: border-box;
+    color: hsl(0,0%,50%);
+    background-clip: content-box,border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0)), linear-gradient(101deg, #FF9A8B, #FF6A88);
+    
+}
+
+
+
+.fromContainer{
+	text-align: center;
+    position: relative;
+}
+
+
+
+
+
+
