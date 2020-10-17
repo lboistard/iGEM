@@ -1,19 +1,50 @@
+<!DOCTYPE html>
 <?php
-$connect=mysqli_connect("127.0.0.1","root","","testigem");
-$bdd = new PDO('mysql:host=localhost;dbname=testigem;charset=utf8', 'root', '');
+	//~-------------------------------------------------------------
+	//~ Variables de connexion à la DB
+	//~-------------------------------------------------------------
+$hostname = 'localhost';
+$username = 'root';
+$passwordDB = 'root';
+$myDataBase = 'testigem';
 
+
+$connect=mysqli_connect($hostname,$username,$passwordDB,$myDataBase);
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="style_index.css">
+	<link rel="stylesheet" href="static/submission.css">
 	<title>soumission</title>
 </head>
+
 <header>
-	<h1 class="titre"><img class="img" src="igemIonis.png">soubmission</h1>
-	<a href="home.php" class="connexion">home</a>
-	<a href="search.php" class="search">search</a>
+	
+	<div class="navigation">
+		<div class="inner">
+			<div class="container">
+				<div class="left">
+					<img class="img" src="image/igemIonis.png" class="igem-logo">
+				</div>
+				<div class="right">
+					<a href="soumission.php" class="search">Search</a>
+					<a href="home.php" class="home">Home</a>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h1 class="titre">
+		Submission
+	</h1>
+	
+
 </header>
+
+
+
+
 <body>
 	<form action="soumission.php" method="POST" name="add">
 		<fieldset>
@@ -45,7 +76,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=testigem;charset=utf8', 'root', '');
 
 			<input type="email" id="email" name="email" placeholder="email" required="required">
 
-			<input type="submit" name="ajouter" value="ajouter">
+			<input type="submit" class="ajouter" name="ajouter" value="Add">
 
 		</fieldset>
 
